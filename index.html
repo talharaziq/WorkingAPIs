@@ -1,36 +1,47 @@
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101a24">
-  <meta name="description" content="WorkingAPI is a searchable directory of 150 free and free-tier public APIs. Browse REST APIs by category, check API key requirements, review CORS and rate-limit notes, and copy JavaScript examples.">
+
+  <meta name="description" content="Discover 150 free public APIs in one searchable directory. Compare API key requirements, rate limits, CORS support, documentation, and JavaScript examples to find the right API for your project.">
   <meta name="keywords" content="free APIs, free public APIs, public API directory, REST API list, APIs without API key, API examples, browser APIs, CORS, API status checker, open source API directory">
+
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="WorkingAPI">
-  <meta property="og:title" content="WorkingAPI — Free Public APIs That Work">
-  <meta property="og:description" content="Browse free public APIs, compare access requirements, check endpoint status, and copy JavaScript examples.">
+  <meta property="og:title" content="150 Free Public APIs — Searchable API Directory | WorkingAPI">
+  <meta property="og:description" content="Explore 150 free public APIs. Compare authentication, rate limits, CORS support, and JavaScript examples in one searchable directory.">
+  <meta property="og:url" content="https://talharaziq.github.io/WorkingAPIs/">
+
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="WorkingAPI — Free Public APIs That Work">
-  <meta name="twitter:description" content="A searchable directory of free public APIs with documentation, authentication notes, CORS details, and code examples.">
-  <title>WorkingAPI — Free Public APIs That Work</title>
+  <meta name="twitter:title" content="150 Free Public APIs — Searchable API Directory | WorkingAPI">
+  <meta name="twitter:description" content="Discover free public APIs in one searchable directory. Compare authentication, rate limits, CORS support, and JavaScript examples.">
+
+  <title>150 Free Public APIs — Searchable API Directory | WorkingAPI</title>
+
+  <link rel="canonical" href="https://talharaziq.github.io/WorkingAPIs/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="./" aria-label="WorkingAPI home">
         <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 10.5 16 5l10 5.5v11L16 27 6 21.5z"/><path d="m6.5 10.8 9.5 5.4 9.5-5.4M16 16.3V27M11 8l10 5.8"/></svg></span>
         <span class="brand-name">Working<span>API</span></span>
       </a>
+
       <nav class="top-nav" aria-label="Main navigation">
         <a href="#directory">Directory</a>
         <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer">Discovery source <span aria-hidden="true">↗</span></a>
         <a href="README.md">About this project</a>
       </nav>
+
       <a class="github-link" href="CONTRIBUTING.md"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.13c-3.1.68-3.75-1.31-3.75-1.31-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.11.08 1.7 1.14 1.7 1.14.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.7-1.48-2.48-.28-5.1-1.24-5.1-5.53 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.14A10.6 10.6 0 0 1 12 6.1c.95 0 1.91.13 2.81.38 2.12-1.44 3.05-1.14 3.05-1.14.61 1.54.23 2.68.12 2.96.71.78 1.14 1.78 1.14 3.01 0 4.3-2.62 5.24-5.12 5.52.4.35.75 1.03.75 2.08v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg> Contribute</a>
     </div>
   </header>
@@ -39,28 +50,35 @@
     <section class="hero">
       <div class="hero-inner">
         <div class="eyebrow"><span class="pulse-dot"></span> AN OPEN DIRECTORY FOR BUILDERS</div>
+
         <h1>Find free public APIs.<br><span>Build something useful.</span></h1>
+
         <p class="hero-copy">Search a curated directory of free and free-tier public APIs. Compare authentication, browser CORS support, and rate-limit notes, then copy a JavaScript request and start building.</p>
+
         <div class="hero-search" role="search">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
           <label class="visually-hidden" for="search-input">Search APIs</label>
           <input id="search-input" type="search" placeholder="Try “weather”, “no API key”, “books”…" autocomplete="off" spellcheck="false">
           <kbd>/</kbd>
         </div>
+
         <div class="hero-tags" aria-label="Quick filters">
           <button class="filter-pill active" type="button" data-view="all">All APIs</button>
           <button class="filter-pill" type="button" data-view="no-key">No API key</button>
           <button class="filter-pill" type="button" data-view="cors">Browser-friendly</button>
           <button class="filter-pill" type="button" data-view="favorites">Saved <span id="saved-pill-count">0</span></button>
         </div>
+
         <div class="hero-stats" aria-live="polite">
           <div><strong id="stat-total">150</strong><span>API entries</span></div>
           <div><strong id="stat-categories">21</strong><span>Categories</span></div>
           <div><strong id="stat-no-key">—</strong><span>No-key entries</span></div>
           <div><strong id="stat-checkable">—</strong><span>Automated checks</span></div>
         </div>
+
         <p class="hero-footnote"><span class="info-icon">i</span> Live status starts as “not checked”. GitHub Actions checks eligible endpoints in batches after you publish the repository.</p>
       </div>
+
       <div class="hero-orbit orbit-one" aria-hidden="true"></div>
       <div class="hero-orbit orbit-two" aria-hidden="true"></div>
       <div class="hero-grid-pattern" aria-hidden="true"></div>
@@ -68,28 +86,66 @@
 
     <section id="directory" class="directory-wrap">
       <div class="directory-heading">
-        <div><p class="section-kicker">THE DIRECTORY</p><h2>Explore APIs</h2><p class="section-subtitle">Search, compare access requirements, and open a listing for docs and code.</p></div>
-        <label class="sort-control" for="sort-select"><span>Sort by</span><select id="sort-select"><option value="curated">Curated order</option><option value="name">Name A–Z</option><option value="category">Category</option><option value="auth">Easiest access</option></select></label>
+        <div>
+          <p class="section-kicker">THE DIRECTORY</p>
+          <h2>Explore APIs</h2>
+          <p class="section-subtitle">Search, compare access requirements, and open a listing for docs and code.</p>
+        </div>
+
+        <label class="sort-control" for="sort-select">
+          <span>Sort by</span>
+          <select id="sort-select">
+            <option value="curated">Curated order</option>
+            <option value="name">Name A–Z</option>
+            <option value="category">Category</option>
+            <option value="auth">Easiest access</option>
+          </select>
+        </label>
       </div>
+
       <div class="directory-layout">
         <aside class="filters-panel" aria-label="Directory filters">
-          <div class="filter-panel-head"><h3>Categories</h3><button id="clear-category" class="text-button" type="button">Clear</button></div>
+          <div class="filter-panel-head">
+            <h3>Categories</h3>
+            <button id="clear-category" class="text-button" type="button">Clear</button>
+          </div>
+
           <div id="category-list" class="category-list"><div class="loading-line">Loading categories…</div></div>
-          <div class="sidebar-note"><span class="note-icon">↗</span><p>Know a reliable API that is missing? Add it through a pull request. Please include docs, access requirements, and a tested example.</p><a href="CONTRIBUTING.md">Contribution guide <span aria-hidden="true">→</span></a></div>
+
+          <div class="sidebar-note">
+            <span class="note-icon">↗</span>
+            <p>Know a reliable API that is missing? Add it through a pull request. Please include docs, access requirements, and a tested example.</p>
+            <a href="CONTRIBUTING.md">Contribution guide <span aria-hidden="true">→</span></a>
+          </div>
         </aside>
+
         <div class="results-area">
           <div class="results-toolbar">
             <p id="results-count" aria-live="polite">Loading directory…</p>
-            <label class="toggle-control"><input id="free-only" type="checkbox"><span class="toggle-track"><span></span></span><span>Free to start</span></label>
+            <label class="toggle-control">
+              <input id="free-only" type="checkbox">
+              <span class="toggle-track"><span></span></span>
+              <span>Free to start</span>
+            </label>
           </div>
+
           <div id="active-filters" class="active-filters" hidden></div>
+
           <div id="api-grid" class="api-grid" aria-live="polite" aria-busy="true">
             <div class="loading-card"><span class="loading-spinner"></span>Loading the API catalogue…</div>
           </div>
+
           <div id="empty-state" class="empty-state" hidden>
-            <div class="empty-icon">⌕</div><h3>No APIs found</h3><p>Try another search or clear a filter.</p><button id="reset-filters" class="button-secondary" type="button">Reset filters</button>
+            <div class="empty-icon">⌕</div>
+            <h3>No APIs found</h3>
+            <p>Try another search or clear a filter.</p>
+            <button id="reset-filters" class="button-secondary" type="button">Reset filters</button>
           </div>
-          <div class="data-note"><span class="note-icon">i</span><p><strong>Keep in mind:</strong> an API being listed does not mean unlimited free usage, guaranteed uptime, or permission for every commercial use. Check the provider’s official terms before shipping a product.</p></div>
+
+          <div class="data-note">
+            <span class="note-icon">i</span>
+            <p><strong>Keep in mind:</strong> an API being listed does not mean unlimited free usage, guaranteed uptime, or permission for every commercial use. Check the provider’s official terms before shipping a product.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -97,29 +153,112 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <a class="brand footer-brand" href="./"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 10.5 16 5l10 5.5v11L16 27 6 21.5z"/><path d="m6.5 10.8 9.5 5.4 9.5-5.4M16 16.3V27M11 8l10 5.8"/></svg></span><span class="brand-name">Working<span>API</span></span></a>
+      <a class="brand footer-brand" href="./">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 10.5 16 5l10 5.5v11L16 27 6 21.5z"/><path d="m6.5 10.8 9.5 5.4 9.5-5.4M16 16.3V27M11 8l10 5.8"/></svg></span>
+        <span class="brand-name">Working<span>API</span></span>
+      </a>
+
       <p>A free public API directory for developers. No accounts, no tracking, and no API keys stored by this website.</p>
-      <div class="footer-links"><a href="README.md">Methodology</a><a href="CONTRIBUTING.md">Contribute</a><a href="LICENSE">MIT license</a></div>
+
+      <div class="footer-links">
+        <a href="README.md">Methodology</a>
+        <a href="CONTRIBUTING.md">Contribute</a>
+        <a href="LICENSE">MIT license</a>
+      </div>
+
       <p class="footer-source">API access rules change. Status checks are snapshots, CORS results depend on origin, and provider documentation is the final reference.</p>
     </div>
   </footer>
 
   <dialog id="api-dialog" class="api-dialog" aria-labelledby="dialog-title">
-    <div class="dialog-header"><div class="dialog-category" id="dialog-category">Category</div><button class="icon-button" id="close-dialog" type="button" aria-label="Close details">✕</button></div>
-    <div class="dialog-body">
-      <div class="dialog-title-row"><div class="dialog-title-mark" id="dialog-mark">A</div><div class="dialog-title-copy"><h2 id="dialog-title">API name</h2><p id="dialog-description"></p></div><button id="dialog-save" class="save-button" type="button" aria-label="Save API">☆</button></div>
-      <div id="dialog-badges" class="dialog-badges"></div>
-      <div class="detail-grid">
-        <section class="detail-card"><h3>Authentication</h3><p id="detail-auth"></p><div class="detail-rule"></div><h3>Free access</h3><p id="detail-free"></p></section>
-        <section class="detail-card"><h3>Rate limits</h3><p id="detail-rate"></p><div class="detail-rule"></div><h3>Browser CORS</h3><p id="detail-cors"></p><p id="detail-cors-source" class="muted-small"></p></section>
-      </div>
-      <section class="status-panel"><div><span class="status-panel-icon">◷</span><div><h3>Latest live check</h3><p id="detail-live-status">Not checked yet</p><p id="detail-last-checked" class="muted-small">No check recorded.</p></div></div><span id="detail-status-badge" class="status-badge status-unknown">Not checked</span></section>
-      <section class="endpoint-section"><div class="section-line-heading"><h3>Example endpoint</h3><button class="text-button" id="copy-endpoint" type="button">Copy URL</button></div><code id="detail-endpoint" class="endpoint-code"></code><div class="endpoint-actions"><a id="detail-docs" class="button-primary" href="#" target="_blank" rel="noopener noreferrer">Official documentation <span aria-hidden="true">↗</span></a><a id="detail-api-link" class="button-secondary" href="#" target="_blank" rel="noopener noreferrer">Open endpoint <span aria-hidden="true">↗</span></a></div></section>
-      <section class="code-section"><div class="section-line-heading"><div><h3>JavaScript example</h3><p id="example-note">Copy this starting point into your project.</p></div><button id="copy-code" class="copy-button" type="button"><span aria-hidden="true">▣</span> Copy code</button></div><pre><code id="detail-code"></code></pre><p class="key-warning" id="key-warning" hidden><span>!</span> This example contains a placeholder. Replace it with your own key or token. Never commit private API keys to a public repository or static website.</p></section>
-      <section class="notes-section" id="notes-section" hidden><h3>Notes</h3><p id="detail-notes"></p></section>
+    <div class="dialog-header">
+      <div class="dialog-category" id="dialog-category">Category</div>
+      <button class="icon-button" id="close-dialog" type="button" aria-label="Close details">✕</button>
     </div>
-    <div class="dialog-footer"><span>Always verify current terms and quotas with the provider.</span><button id="close-dialog-bottom" class="button-secondary" type="button">Done</button></div>
+
+    <div class="dialog-body">
+      <div class="dialog-title-row">
+        <div class="dialog-title-mark" id="dialog-mark">A</div>
+        <div class="dialog-title-copy">
+          <h2 id="dialog-title">API name</h2>
+          <p id="dialog-description"></p>
+        </div>
+        <button id="dialog-save" class="save-button" type="button" aria-label="Save API">☆</button>
+      </div>
+
+      <div id="dialog-badges" class="dialog-badges"></div>
+
+      <div class="detail-grid">
+        <section class="detail-card">
+          <h3>Authentication</h3>
+          <p id="detail-auth"></p>
+          <div class="detail-rule"></div>
+          <h3>Free access</h3>
+          <p id="detail-free"></p>
+        </section>
+
+        <section class="detail-card">
+          <h3>Rate limits</h3>
+          <p id="detail-rate"></p>
+          <div class="detail-rule"></div>
+          <h3>Browser CORS</h3>
+          <p id="detail-cors"></p>
+          <p id="detail-cors-source" class="muted-small"></p>
+        </section>
+      </div>
+
+      <section class="status-panel">
+        <div>
+          <span class="status-panel-icon">◷</span>
+          <div>
+            <h3>Latest live check</h3>
+            <p id="detail-live-status">Not checked yet</p>
+            <p id="detail-last-checked" class="muted-small">No check recorded.</p>
+          </div>
+        </div>
+        <span id="detail-status-badge" class="status-badge status-unknown">Not checked</span>
+      </section>
+
+      <section class="endpoint-section">
+        <div class="section-line-heading">
+          <h3>Example endpoint</h3>
+          <button class="text-button" id="copy-endpoint" type="button">Copy URL</button>
+        </div>
+
+        <code id="detail-endpoint" class="endpoint-code"></code>
+
+        <div class="endpoint-actions">
+          <a id="detail-docs" class="button-primary" href="#" target="_blank" rel="noopener noreferrer">Official documentation <span aria-hidden="true">↗</span></a>
+          <a id="detail-api-link" class="button-secondary" href="#" target="_blank" rel="noopener noreferrer">Open endpoint <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="code-section">
+        <div class="section-line-heading">
+          <div>
+            <h3>JavaScript example</h3>
+            <p id="example-note">Copy this starting point into your project.</p>
+          </div>
+          <button id="copy-code" class="copy-button" type="button"><span aria-hidden="true">▣</span> Copy code</button>
+        </div>
+
+        <pre><code id="detail-code"></code></pre>
+
+        <p class="key-warning" id="key-warning" hidden><span>!</span> This example contains a placeholder. Replace it with your own key or token. Never commit private API keys to a public repository or static website.</p>
+      </section>
+
+      <section class="notes-section" id="notes-section" hidden>
+        <h3>Notes</h3>
+        <p id="detail-notes"></p>
+      </section>
+    </div>
+
+    <div class="dialog-footer">
+      <span>Always verify current terms and quotas with the provider.</span>
+      <button id="close-dialog-bottom" class="button-secondary" type="button">Done</button>
+    </div>
   </dialog>
+
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

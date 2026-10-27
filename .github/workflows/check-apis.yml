@@ -1,0 +1,64 @@
+name: Check API availability and refresh Pages
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+    inputs:
+      check_all:
+        description: 'Check all eligible endpoints (more requests; use sparingly)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  check-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+      - name: Validate catalogue
+        run: python scripts/validate_catalog.py
+      - name: Probe rotating batch
+        if: ${{ !inputs.check_all }}
+        run: python scripts/check_apis.py --batch-size 24 --workers 6
+      - name: Probe all eligible endpoints
+        if: ${{ inputs.check_all }}
+        run: python scripts/check_apis.py --all --workers 6
+      - name: Commit updated status file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/status.json
+          if git diff --cached --quiet; then
+            echo "No status changes to commit."
+          else
+            git commit -m "chore: refresh API availability status"
+            git push
+          fi
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+      - name: Upload updated static site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: .
+      - name: Deploy updated status
+        id: deployment
+        uses: actions/deploy-pages@v5

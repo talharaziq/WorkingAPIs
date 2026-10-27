@@ -1,0 +1,1206 @@
+{
+  "generated_at": null,
+  "probe_origin": "https://workingapi.invalid",
+  "results": {
+    "open-meteo": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "national-weather-service-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "met-norway-locationforecast": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "openaq": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "airnow-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "usgs-earthquake-catalog": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "nasa-image-and-video-library": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "nasa-eonet": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "spaceflight-news-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "noaa-climate-data-online": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "rest-countries": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "openstreetmap-nominatim": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "overpass-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "osrm-demo-routing": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "photon-geocoder": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "geodb-cities": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "zippopotam-us": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "bigdatacloud-client-side-geolocation": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "postcodes-io": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "google-maps-geocoding-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "ipify": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "ipwho-is": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "ipapi-co": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "ipinfo": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "cloudflare-trace": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "google-dns-over-https": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "cloudflare-dns-over-https": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "crt-sh-certificate-search": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "frankfurter": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "coinpaprika": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "coinbase-spot-price-api": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "kraken-public-market-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "binance-spot-market-data": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "coingecko-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "world-bank-indicators-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "fred-economic-data-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "crossref-rest-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "europe-pmc": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "ncbi-pubmed-e-utilities": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "arxiv-api": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "openalex": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "wikidata-sparql": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "wikipedia-rest-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "us-census-bureau-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "us-data-gov-catalog-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "federal-register-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "open-library-search": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "gutendex": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "google-books-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "library-of-congress-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "duckduckgo-instant-answer": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "datamuse-word-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "wordsapi": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "open-library-covers": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "github-rest-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "gitlab-rest-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "bitbucket-cloud-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "npm-registry-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "pypi-json-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "crates-io-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "hacker-news-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "stack-exchange-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "dev-community-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "docker-hub-registry-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "codeberg-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "shields-io-endpoint-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "jsonplaceholder": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "dummyjson": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "fake-store-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "random-user": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "httpbin": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "postman-echo": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "httpbingo": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "sample-apis": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "reqres-in": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "jokeapi": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "pok-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "anilist-graphql": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "kitsu-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "swapi-tech": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "d-d-5e-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "magic-the-gathering-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "open-trivia-database": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "rick-and-morty-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "chess-com-published-data-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "lichess-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "tvmaze": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "the-movie-database-tmdb": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "omdb-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "watchmode": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "trakt-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "jolpica-formula-1-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "uk-carbon-intensity": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "musicbrainz-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "itunes-search-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "deezer-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "last-fm-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "spotify-web-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "the-metropolitan-museum-of-art-collection-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "art-institute-of-chicago-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "harvard-art-museums-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "rijksmuseum-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "smithsonian-open-access-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "open-brewery-db": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "open-food-facts": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "themealdb": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "thecocktaildb": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "fruityvice": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "usda-fooddata-central": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "spoonacular-food-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "dog-ceo": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "cat-facts": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "random-dog": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "randomfox": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "the-cat-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "openligadb": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "football-data-org": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "balldontlie-nba-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "thesportsdb": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "nager-date-public-holidays": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "sunrise-sunset-org": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "where-the-iss-at": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "timeapi-io": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "calendarific": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "mbta-v3-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "transport-for-london-unified-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "open-charge-map": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "transport-rest": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "citybikes-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "languagetool-public-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "openf1-api": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "gbif-species-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "data-usa-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "advice-slip-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "wikimedia-pageviews-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "the-numbers-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "lorem-picsum": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "unsplash-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "pexels-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "giphy-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "tenor-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "pixabay-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "wikimedia-commons-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "data-europa-eu-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "mlb-stats-api": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "us-national-park-service-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "congress-gov-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "bureau-of-labor-statistics-api": {
+      "status": "needs_auth",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "launch-library-2": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    },
+    "hibp-pwned-passwords-api": {
+      "status": "manual_check",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
+    }
+  }
+}

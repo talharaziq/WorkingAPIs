@@ -1,5 +1,9 @@
 # WorkingAPI — Free Public APIs That Work
+# WorkingAPI
 
+🌐 **Live Website:** [Explore WorkingAPI](https://talharaziq.github.io/WorkingAPIs/)
+
+Your existing introduction starts here...
 **WorkingAPI is a searchable directory of free public APIs and free-tier REST APIs.** Browse APIs by category, check whether authentication is required, review CORS and rate-limit notes, open official documentation, and copy JavaScript examples.
 
 The site is a lightweight static website built with HTML, CSS, and JavaScript. It is designed to run on **GitHub Pages** with no build step, database, account system, or paid service required to browse the directory.

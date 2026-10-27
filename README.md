@@ -1,5 +1,4 @@
 # WorkingAPI — Free Public APIs That Work
-# WorkingAPI
 
 🌐 **Live Website:** [Explore WorkingAPI](https://talharaziq.github.io/WorkingAPIs/)
 

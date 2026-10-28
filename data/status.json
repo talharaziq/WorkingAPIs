@@ -1,5 +1,5 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-10-28T09:38:52Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
@@ -275,12 +275,12 @@
       "content_type": null
     },
     "world-bank-indicators-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json;charset=utf-8"
     },
     "fred-economic-data-api": {
       "status": "needs_auth",
@@ -291,28 +291,28 @@
       "content_type": null
     },
     "crossref-rest-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "europe-pmc": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json;charset=UTF-8"
     },
     "ncbi-pubmed-e-utilities": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=UTF-8"
     },
     "arxiv-api": {
       "status": "manual_check",
@@ -331,20 +331,20 @@
       "content_type": null
     },
     "wikidata-sparql": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/sparql-results+json;charset=utf-8"
     },
     "wikipedia-rest-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8; profile=\"https://www.mediawiki.org/wiki/Specs/Summary/1.5.0\""
     },
     "us-census-bureau-api": {
       "status": "needs_auth",
@@ -363,27 +363,27 @@
       "content_type": null
     },
     "federal-register-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "open-library-search": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "gutendex": {
-      "status": "not_checked",
-      "checked_at": null,
+      "status": "offline",
+      "checked_at": "2026-10-28T09:38:52Z",
       "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
+      "cors_probe": "unknown",
+      "error": "The read operation timed out",
       "content_type": null
     },
     "google-books-api": {
@@ -395,28 +395,28 @@
       "content_type": null
     },
     "library-of-congress-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "duckduckgo-instant-answer": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/x-javascript"
     },
     "datamuse-word-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "wordsapi": {
       "status": "needs_auth",
@@ -459,100 +459,100 @@
       "content_type": null
     },
     "npm-registry-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "pypi-json-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "crates-io-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "hacker-news-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "stack-exchange-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:52Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "dev-community-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "docker-hub-registry-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "no",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "codeberg-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json;charset=utf-8"
     },
     "shields-io-endpoint-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "image/svg+xml;charset=utf-8"
     },
     "jsonplaceholder": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "dummyjson": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "fake-store-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-28T09:38:53Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "random-user": {
       "status": "not_checked",
@@ -1202,5 +1202,6 @@
       "error": null,
       "content_type": null
     }
-  }
+  },
+  "checked_this_run": 24
 }

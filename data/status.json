@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:38:52Z",
+  "generated_at": "2026-10-29T09:56:59Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
@@ -555,44 +555,44 @@
       "content_type": "application/json; charset=utf-8"
     },
     "random-user": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "httpbin": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "postman-echo": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "no",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "httpbingo": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "sample-apis": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "reqres-in": {
       "status": "needs_auth",
@@ -603,20 +603,20 @@
       "content_type": null
     },
     "jokeapi": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=UTF-8"
     },
     "pok-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "anilist-graphql": {
       "status": "manual_check",
@@ -627,60 +627,60 @@
       "content_type": null
     },
     "kitsu-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/vnd.api+json"
     },
     "swapi-tech": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "d-d-5e-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "magic-the-gathering-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "open-trivia-database": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "rick-and-morty-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "chess-com-published-data-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:56:59Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "lichess-api": {
       "status": "needs_auth",
@@ -691,12 +691,12 @@
       "content_type": null
     },
     "tvmaze": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=UTF-8"
     },
     "the-movie-database-tmdb": {
       "status": "needs_auth",
@@ -731,44 +731,44 @@
       "content_type": null
     },
     "jolpica-formula-1-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "uk-carbon-intensity": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "musicbrainz-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "itunes-search-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "text/javascript; charset=utf-8"
     },
     "deezer-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "no",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "last-fm-api": {
       "status": "needs_auth",
@@ -787,20 +787,20 @@
       "content_type": null
     },
     "the-metropolitan-museum-of-art-collection-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "art-institute-of-chicago-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "harvard-art-museums-api": {
       "status": "needs_auth",
@@ -827,20 +827,20 @@
       "content_type": null
     },
     "open-brewery-db": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "open-food-facts": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-29T09:57:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "themealdb": {
       "status": "not_checked",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:56:59Z",
+  "generated_at": "2026-10-30T09:59:16Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
@@ -843,28 +843,28 @@
       "content_type": "application/json; charset=utf-8"
     },
     "themealdb": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "thecocktaildb": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "fruityvice": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "no",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "usda-fooddata-central": {
       "status": "needs_auth",
@@ -883,36 +883,36 @@
       "content_type": null
     },
     "dog-ceo": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "cat-facts": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "random-dog": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "randomfox": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "the-cat-api": {
       "status": "needs_auth",
@@ -923,12 +923,12 @@
       "content_type": null
     },
     "openligadb": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "football-data-org": {
       "status": "needs_auth",
@@ -955,36 +955,36 @@
       "content_type": null
     },
     "nager-date-public-holidays": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
-      "content_type": null
+      "status": "server_error",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 502,
+      "cors_probe": "no",
+      "error": "HTTP 502",
+      "content_type": "application/json; charset=utf-8"
     },
     "sunrise-sunset-org": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "where-the-iss-at": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "timeapi-io": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "calendarific": {
       "status": "needs_auth",
@@ -995,12 +995,12 @@
       "content_type": null
     },
     "mbta-v3-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/vnd.api+json; charset=utf-8"
     },
     "transport-for-london-unified-api": {
       "status": "needs_auth",
@@ -1019,28 +1019,28 @@
       "content_type": null
     },
     "transport-rest": {
-      "status": "not_checked",
-      "checked_at": null,
+      "status": "offline",
+      "checked_at": "2026-10-30T09:59:17Z",
       "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
+      "cors_probe": "unknown",
+      "error": "The read operation timed out",
       "content_type": null
     },
     "citybikes-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "languagetool-public-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "openf1-api": {
       "status": "manual_check",
@@ -1051,43 +1051,43 @@
       "content_type": null
     },
     "gbif-species-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "data-usa-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
-      "content_type": null
+      "status": "http_error",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 400,
+      "cors_probe": "yes",
+      "error": "HTTP 400",
+      "content_type": "application/json"
     },
     "advice-slip-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:17Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "wikimedia-pageviews-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:18Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "the-numbers-api": {
-      "status": "not_checked",
-      "checked_at": null,
+      "status": "offline",
+      "checked_at": "2026-10-30T09:59:18Z",
       "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
+      "cors_probe": "unknown",
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'numbersapi.com'. (_ssl.c:1144)",
       "content_type": null
     },
     "lorem-picsum": {
@@ -1139,28 +1139,28 @@
       "content_type": null
     },
     "wikimedia-commons-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:18Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "data-europa-eu-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:18Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "mlb-stats-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-30T09:59:18Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json;charset=UTF-8"
     },
     "us-national-park-service-api": {
       "status": "needs_auth",

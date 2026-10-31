@@ -1201,6 +1201,14 @@
       "cors_probe": "not_checked",
       "error": null,
       "content_type": null
+    },
+    "bucketlist-dream-of-the-day": {
+      "status": "not_checked",
+      "checked_at": null,
+      "http_status": null,
+      "cors_probe": "not_checked",
+      "error": null,
+      "content_type": null
     }
   },
   "checked_this_run": 24

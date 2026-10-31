@@ -9,7 +9,7 @@ The site is a lightweight static website built with HTML, CSS, and JavaScript. I
 
 ## Features
 
-- **150 API listings** across 21 categories, including weather, maps, developer tools, books, finance, games, science, food, transport, and open data.
+- **151 API listings** across 21 categories, including weather, maps, developer tools, books, finance, games, science, food, transport, and open data.
 - **Search and filters** to find APIs by name, category, access requirements, and saved items.
 - **Authentication notes** that distinguish APIs with no key from services that require a key, token, or registration.
 - **CORS information** for developers who want to call an API directly from a browser.
@@ -37,7 +37,7 @@ The directory contains these categories:
 | Education & Language | 1 |
 | Finance & Crypto | 8 |
 | Food & Drink | 7 |
-| Fun & Lifestyle | 3 |
+| Fun & Lifestyle | 4 |
 | Games & Entertainment | 10 |
 | Geography & Maps | 10 |
 | Government & Open Data | 5 |
@@ -51,7 +51,7 @@ The directory contains these categories:
 | Time & Calendar | 4 |
 | Transport & Mobility | 5 |
 | Weather & Environment | 11 |
-| **Total** | **150** |
+| **Total** | **151** |
 
 ## Run WorkingAPI locally
 
@@ -99,7 +99,7 @@ To make the CORS probe site-specific, run the checker with `--origin` set to the
 5. Go to **Actions** and run **Deploy WorkingAPI to GitHub Pages** once, or push a commit to the `main` branch.
 6. When deployment succeeds, GitHub shows the published URL in **Settings → Pages**.
 
-The deployment workflow validates the catalogue before publishing. The scheduled checker runs daily, tests up to 24 eligible endpoints per run, updates the status file, and deploys the updated site. Since 96 entries are configured for automated checks in the current catalogue, the rotating set takes multiple daily runs to cover them all.
+The deployment workflow validates the catalogue before publishing. The scheduled checker runs daily, tests up to 24 eligible endpoints per run, updates the status file, and deploys the updated site. Since 97 entries are configured for automated checks in the current catalogue, the rotating set takes multiple daily runs to cover them all.
 
 If you use a branch other than `main`, update the branch name in `.github/workflows/deploy-pages.yml`.
 
@@ -170,7 +170,7 @@ The WorkingAPI website, scripts, and project-authored catalogue contributions ar
 
 Suggested repository description:
 
-> A searchable directory of 150 free public APIs and REST APIs, with authentication notes, CORS details, JavaScript examples, and automated endpoint status checks.
+> A searchable directory of 151 free public APIs and REST APIs, with authentication notes, CORS details, JavaScript examples, and automated endpoint status checks.
 
 Suggested GitHub topics:
 

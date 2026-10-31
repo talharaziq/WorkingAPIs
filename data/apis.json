@@ -1,9 +1,9 @@
 {
   "name": "WorkingAPI",
-  "description": "A searchable directory of 150 free and free-tier public APIs, with official documentation, authentication and CORS notes, example requests, and a scheduled endpoint checker.",
+  "description": "A searchable directory of 151 free and free-tier public APIs, with official documentation, authentication and CORS notes, example requests, and a scheduled endpoint checker.",
   "catalog_version": "1.0.0",
   "catalogued_on": "2026-10-27",
-  "count": 150,
+  "count": 151,
   "categories": [
     "Animals",
     "Art & Culture",
@@ -28,7 +28,7 @@
     "Weather & Environment"
   ],
   "notes": [
-    "Catalogue snapshot dated 2026-10-27. Listings link to provider documentation, but not every endpoint has been directly tested in a live request.",
+    "Initial catalogue snapshot dated 2026-10-27. Listings link to provider documentation, but not every endpoint has been directly tested in a live request. Later additions record their own source_checked date.",
     "An API being listed does not mean it offers a production SLA, unlimited free usage, or permission for every commercial use.",
     "Authentication, quotas, CORS policies, and provider terms can change. Check the official documentation before using an API in a product.",
     "The initial catalogue is not marked live-verified. GitHub Actions performs low-volume rotating endpoint checks after deployment.",
@@ -3582,6 +3582,30 @@
       "response_type": "text",
       "check_policy": "Manual check: authentication, special response format, POST request, or no safe anonymous GET probe.",
       "source_checked": null
+    },
+    {
+      "id": "bucketlist-dream-of-the-day",
+      "name": "Bucketlist.nl Dream of the Day",
+      "category": "Fun & Lifestyle",
+      "description": "One daily travel or personal-experience idea with an image and canonical source URL; this example returns Dutch data.",
+      "base_url": "https://bucketlist.nl",
+      "endpoint": "https://bucketlist.nl/api/droom-van-de-dag?scope=nederland&lang=nl",
+      "docs": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+      "auth": "None",
+      "https": true,
+      "cors": "Unknown",
+      "rate_limit": "No numerical quota is clearly published in the official specification. Cache according to Cache-Control and review the provider terms at https://bucketlist.nl/algemene-voorwaarden.",
+      "free_tier": "Free public endpoint without a key or account; some linked experience pages contain clearly marked affiliate links.",
+      "method": "GET",
+      "headers": {},
+      "notes": "Returns one result selected daily in Europe/Amsterdam, not a searchable activity catalogue. Official documentation and an actual anonymous JSON response were checked on 2026-10-31; no production SLA or commercial-use permission is implied.",
+      "example_js": "fetch(\"https://bucketlist.nl/api/droom-van-de-dag?scope=nederland&lang=nl\")\n  .then((response) => {\n    if (!response.ok) throw new Error(`HTTP ${response.status}`);\n    return response.json();\n  })\n  .then((data) => console.log({ title: data.dream.title, image: data.dream.image.url, source: data.dream.canonicalUrl }))\n  .catch(console.error);",
+      "check_url": "https://bucketlist.nl/api/droom-van-de-dag?scope=nederland&lang=nl",
+      "status_policy": "Initial state remains unverified until a scheduled checker records a result.",
+      "check_policy": "Rotating low-volume anonymous GET probe; HTTP success is not a full functional test.",
+      "cors_evidence": "Official OpenAPI declares CORS support; an actual 2026-10-31 HTTP response had Access-Control-Allow-Origin: *. No real browser-origin test was performed, so the catalogue value remains Unknown.",
+      "response_type": "json",
+      "source_checked": "2026-10-31"
     }
   ]
 }

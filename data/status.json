@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-30T09:59:16Z",
+  "generated_at": "2026-10-31T09:37:44Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "national-weather-service-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/geo+json"
     },
     "met-norway-locationforecast": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "openaq": {
       "status": "needs_auth",
@@ -43,36 +43,36 @@
       "content_type": null
     },
     "usgs-earthquake-catalog": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "nasa-image-and-video-library": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "nasa-eonet": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/rss+xml; charset=utf-8"
     },
     "spaceflight-news-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "noaa-climate-data-online": {
       "status": "needs_auth",
@@ -91,36 +91,36 @@
       "content_type": null
     },
     "openstreetmap-nominatim": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:44Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "overpass-api": {
-      "status": "not_checked",
-      "checked_at": null,
+      "status": "offline",
+      "checked_at": "2026-10-31T09:37:44Z",
       "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
+      "cors_probe": "unknown",
+      "error": "The read operation timed out",
       "content_type": null
     },
     "osrm-demo-routing": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=UTF-8"
     },
     "photon-geocoder": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "geodb-cities": {
       "status": "needs_auth",
@@ -131,28 +131,28 @@
       "content_type": null
     },
     "zippopotam-us": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "bigdatacloud-client-side-geolocation": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "postcodes-io": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "google-maps-geocoding-api": {
       "status": "needs_auth",
@@ -163,28 +163,28 @@
       "content_type": null
     },
     "ipify": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "ipwho-is": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "ipapi-co": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "ipinfo": {
       "status": "needs_auth",
@@ -203,44 +203,44 @@
       "content_type": null
     },
     "google-dns-over-https": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=UTF-8"
     },
     "cloudflare-dns-over-https": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/dns-json"
     },
     "crt-sh-certificate-search": {
-      "status": "not_checked",
-      "checked_at": null,
+      "status": "offline",
+      "checked_at": "2026-10-31T09:37:45Z",
       "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
+      "cors_probe": "unknown",
+      "error": "The read operation timed out",
       "content_type": null
     },
     "frankfurter": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json; charset=utf-8"
     },
     "coinpaprika": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "coinbase-spot-price-api": {
       "status": "manual_check",
@@ -251,20 +251,20 @@
       "content_type": null
     },
     "kraken-public-market-api": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     },
     "binance-spot-market-data": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
-      "error": null,
-      "content_type": null
+      "status": "http_error",
+      "checked_at": "2026-10-31T09:37:45Z",
+      "http_status": 451,
+      "cors_probe": "no",
+      "error": "HTTP 451",
+      "content_type": "application/json"
     },
     "coingecko-api": {
       "status": "needs_auth",

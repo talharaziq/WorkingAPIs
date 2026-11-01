@@ -22,7 +22,7 @@ def main():
     rows = data.get('apis')
     errors = []
     if not isinstance(rows, list): errors.append('apis must be a list')
-    elif len(rows) != 150: errors.append(f'expected 150 entries, found {len(rows)}')
+    elif len(rows) != 151: errors.append(f'expected 151 entries, found {len(rows)}')
     ids = [a.get('id') for a in rows]
     if len(ids) != len(set(ids)): errors.append('duplicate API ids found')
     for index, api in enumerate(rows or [], 1):

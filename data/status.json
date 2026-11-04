@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:51:17Z",
+  "generated_at": "2026-11-04T10:53:59Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
@@ -1203,13 +1203,13 @@
       "content_type": null
     },
     "bucketlist-dream-of-the-day": {
-      "status": "not_checked",
-      "checked_at": null,
-      "http_status": null,
-      "cors_probe": "not_checked",
+      "status": "online",
+      "checked_at": "2026-11-04T10:54:00Z",
+      "http_status": 200,
+      "cors_probe": "yes",
       "error": null,
-      "content_type": null
+      "content_type": "application/json"
     }
   },
-  "checked_this_run": 24
+  "checked_this_run": 1
 }

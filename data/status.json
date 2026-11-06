@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T10:53:26Z",
+  "generated_at": "2026-11-06T10:51:40Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
@@ -275,12 +275,12 @@
       "content_type": null
     },
     "world-bank-indicators-api": {
-      "status": "online",
-      "checked_at": "2026-11-01T10:26:13Z",
-      "http_status": 200,
-      "cors_probe": "yes",
-      "error": null,
-      "content_type": "application/json;charset=utf-8"
+      "status": "offline",
+      "checked_at": "2026-11-06T10:51:40Z",
+      "http_status": null,
+      "cors_probe": "unknown",
+      "error": "The read operation timed out",
+      "content_type": null
     },
     "fred-economic-data-api": {
       "status": "needs_auth",
@@ -292,7 +292,7 @@
     },
     "crossref-rest-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:13Z",
+      "checked_at": "2026-11-06T10:51:40Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -300,7 +300,7 @@
     },
     "europe-pmc": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:13Z",
+      "checked_at": "2026-11-06T10:51:40Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -308,7 +308,7 @@
     },
     "ncbi-pubmed-e-utilities": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:13Z",
+      "checked_at": "2026-11-06T10:51:40Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -332,7 +332,7 @@
     },
     "wikidata-sparql": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:13Z",
+      "checked_at": "2026-11-06T10:51:40Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -340,7 +340,7 @@
     },
     "wikipedia-rest-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:13Z",
+      "checked_at": "2026-11-06T10:51:40Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -364,7 +364,7 @@
     },
     "federal-register-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:40Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -372,7 +372,7 @@
     },
     "open-library-search": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -380,7 +380,7 @@
     },
     "gutendex": {
       "status": "offline",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": null,
       "cors_probe": "unknown",
       "error": "The read operation timed out",
@@ -395,16 +395,16 @@
       "content_type": null
     },
     "library-of-congress-api": {
-      "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
-      "http_status": 200,
-      "cors_probe": "yes",
-      "error": null,
-      "content_type": "application/json"
+      "status": "offline",
+      "checked_at": "2026-11-06T10:51:41Z",
+      "http_status": null,
+      "cors_probe": "unknown",
+      "error": "The read operation timed out",
+      "content_type": null
     },
     "duckduckgo-instant-answer": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -412,7 +412,7 @@
     },
     "datamuse-word-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -460,7 +460,7 @@
     },
     "npm-registry-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -468,7 +468,7 @@
     },
     "pypi-json-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -476,7 +476,7 @@
     },
     "crates-io-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -484,7 +484,7 @@
     },
     "hacker-news-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -492,7 +492,7 @@
     },
     "stack-exchange-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -500,7 +500,7 @@
     },
     "dev-community-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:41Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -508,7 +508,7 @@
     },
     "docker-hub-registry-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:42Z",
       "http_status": 200,
       "cors_probe": "no",
       "error": null,
@@ -516,7 +516,7 @@
     },
     "codeberg-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:42Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -524,7 +524,7 @@
     },
     "shields-io-endpoint-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:42Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -532,7 +532,7 @@
     },
     "jsonplaceholder": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:42Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -540,7 +540,7 @@
     },
     "dummyjson": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:42Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -548,7 +548,7 @@
     },
     "fake-store-api": {
       "status": "online",
-      "checked_at": "2026-11-01T10:26:14Z",
+      "checked_at": "2026-11-06T10:51:42Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,

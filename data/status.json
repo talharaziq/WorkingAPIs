@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T11:04:46Z",
+  "generated_at": "2026-11-13T10:57:06Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
@@ -844,7 +844,7 @@
     },
     "themealdb": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:06Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -852,7 +852,7 @@
     },
     "thecocktaildb": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:06Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -860,7 +860,7 @@
     },
     "fruityvice": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:06Z",
       "http_status": 200,
       "cors_probe": "no",
       "error": null,
@@ -884,7 +884,7 @@
     },
     "dog-ceo": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:06Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -892,7 +892,7 @@
     },
     "cat-facts": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:06Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -900,7 +900,7 @@
     },
     "random-dog": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:06Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -908,7 +908,7 @@
     },
     "randomfox": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:31Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -924,7 +924,7 @@
     },
     "openligadb": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -956,7 +956,7 @@
     },
     "nager-date-public-holidays": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -964,7 +964,7 @@
     },
     "sunrise-sunset-org": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -972,7 +972,7 @@
     },
     "where-the-iss-at": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -980,7 +980,7 @@
     },
     "timeapi-io": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -996,7 +996,7 @@
     },
     "mbta-v3-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1020,7 +1020,7 @@
     },
     "transport-rest": {
       "status": "offline",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": null,
       "cors_probe": "unknown",
       "error": "[Errno -2] Name or service not known",
@@ -1028,7 +1028,7 @@
     },
     "citybikes-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1036,7 +1036,7 @@
     },
     "languagetool-public-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1052,7 +1052,7 @@
     },
     "gbif-species-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1060,7 +1060,7 @@
     },
     "data-usa-api": {
       "status": "http_error",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 400,
       "cors_probe": "yes",
       "error": "HTTP 400",
@@ -1068,7 +1068,7 @@
     },
     "advice-slip-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1076,7 +1076,7 @@
     },
     "wikimedia-pageviews-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:32Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1084,7 +1084,7 @@
     },
     "the-numbers-api": {
       "status": "offline",
-      "checked_at": "2026-11-08T10:19:33Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": null,
       "cors_probe": "unknown",
       "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'numbersapi.com'. (_ssl.c:1147)",
@@ -1140,7 +1140,7 @@
     },
     "wikimedia-commons-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:33Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1148,7 +1148,7 @@
     },
     "data-europa-eu-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:33Z",
+      "checked_at": "2026-11-13T10:57:07Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -1156,7 +1156,7 @@
     },
     "mlb-stats-api": {
       "status": "online",
-      "checked_at": "2026-11-08T10:19:33Z",
+      "checked_at": "2026-11-13T10:57:08Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,

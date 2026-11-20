@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-19T11:37:56Z",
+  "generated_at": "2026-11-20T11:37:22Z",
   "probe_origin": "https://workingapi.invalid",
   "results": {
     "open-meteo": {
-      "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
-      "http_status": 200,
-      "cors_probe": "yes",
-      "error": null,
-      "content_type": "application/json; charset=utf-8"
+      "status": "offline",
+      "checked_at": "2026-11-20T11:37:22Z",
+      "http_status": null,
+      "cors_probe": "unknown",
+      "error": "_ssl.c:1129: The handshake operation timed out",
+      "content_type": null
     },
     "national-weather-service-api": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -20,7 +20,7 @@
     },
     "met-norway-locationforecast": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -44,7 +44,7 @@
     },
     "usgs-earthquake-catalog": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -52,7 +52,7 @@
     },
     "nasa-image-and-video-library": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -60,7 +60,7 @@
     },
     "nasa-eonet": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -68,7 +68,7 @@
     },
     "spaceflight-news-api": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -92,23 +92,23 @@
     },
     "openstreetmap-nominatim": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:12Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
       "content_type": "application/json; charset=utf-8"
     },
     "overpass-api": {
-      "status": "offline",
-      "checked_at": "2026-11-15T10:51:12Z",
-      "http_status": null,
-      "cors_probe": "unknown",
-      "error": "The read operation timed out",
-      "content_type": null
+      "status": "server_error",
+      "checked_at": "2026-11-20T11:37:22Z",
+      "http_status": 502,
+      "cors_probe": "yes",
+      "error": "HTTP 502",
+      "content_type": "text/plain"
     },
     "osrm-demo-routing": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -116,7 +116,7 @@
     },
     "photon-geocoder": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -132,7 +132,7 @@
     },
     "zippopotam-us": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:22Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -140,7 +140,7 @@
     },
     "bigdatacloud-client-side-geolocation": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -148,7 +148,7 @@
     },
     "postcodes-io": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -164,7 +164,7 @@
     },
     "ipify": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -172,7 +172,7 @@
     },
     "ipwho-is": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -180,7 +180,7 @@
     },
     "ipapi-co": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -204,7 +204,7 @@
     },
     "google-dns-over-https": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -212,7 +212,7 @@
     },
     "cloudflare-dns-over-https": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -220,7 +220,7 @@
     },
     "crt-sh-certificate-search": {
       "status": "offline",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": null,
       "cors_probe": "unknown",
       "error": "The read operation timed out",
@@ -228,7 +228,7 @@
     },
     "frankfurter": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -236,7 +236,7 @@
     },
     "coinpaprika": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -252,7 +252,7 @@
     },
     "kraken-public-market-api": {
       "status": "online",
-      "checked_at": "2026-11-15T10:51:13Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 200,
       "cors_probe": "yes",
       "error": null,
@@ -260,7 +260,7 @@
     },
     "binance-spot-market-data": {
       "status": "http_error",
-      "checked_at": "2026-11-15T10:51:14Z",
+      "checked_at": "2026-11-20T11:37:23Z",
       "http_status": 451,
       "cors_probe": "no",
       "error": "HTTP 451",
@@ -1211,5 +1211,5 @@
       "content_type": "application/json"
     }
   },
-  "checked_this_run": 1
+  "checked_this_run": 24
 }
